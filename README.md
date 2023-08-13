@@ -61,10 +61,8 @@ A web application that allows users to manage their tasks with features such as 
 
 ## Screenshots
 screenshot/s1.png
-
-[Screenshot 2](/screenshot/s2.png)
-
-[Screenshot 2](/screenshot/s3.png)
+screenshot/s2.png
+screenshot/s3.png
 
 
 ## Backend - MongoDB

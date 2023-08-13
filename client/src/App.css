@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
+body{
+ width: 50%;
+ margin: 0 auto;
+}
+
+header{
+   text-align: center;
+
+}
+
+header h1 {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Libre Baskerville', serif;
+  color: blue;
+}
+
+input{
+ font-size: 20px;
+ color:rgba(42, 102, 181, 0.785); 
+ font-family: 'Libre Baskerville', serif;
+ font-weight: 100;
+ width: 100%;
+ border: none;
+ outline: none;
+ border-bottom: 2px solid rgba(42, 102, 181, 0.785); 
+padding: 5px;
+}
+
+.task{
+ background-color: rgba(118, 168, 232, 0.785);
+ padding: 15px;
+ margin: 15px;
+ overflow-x: hidden;
+ border: 2px solid blue;
+ border-radius: 20px;
+ cursor: pointer;
+}
+
+.task span {
+  color: blue;
+  font-family: 'Libre Baskerville', serif;
+}
+.icon{
+  float: right;
+  margin-right: 20px;
+
+}
+
+.todo-list{
+ position: relative;
+ right: 15px;
+  list-style: none;
+
+}
+article{
+  display: grid;
+}
+
+.edit-todo{
+  width: 85%;
+  font-size: 16px;
+  color: blue;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid blue;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.btn{
+  margin: 20px 30px;
+  padding: 10px;
+  height: 30px;
+  font-size: 14px;
+  border: none;
+  background-color: white;
+  color: blue;
+  font-family: 'Libre Baskerville', serif;
+  cursor: pointer;
+  
+
+}
+
+.button.selected{
+color: white;
+background-color: blue;
+font-size: 14px;
+font-family: 'Libre Baskerville', serif;
+border: none;
+border-radius: 10px;
+height: 40px;
+
+}
+
+.button.clear{
+float: right;
+color: white;
+background-color: red;
+width: 180px;
+margin: 20px 0px;
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+

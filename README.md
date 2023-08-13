@@ -60,9 +60,9 @@ A web application that allows users to manage their tasks with features such as 
 2. Click the "Remove All Done Todos" button to delete all completed tasks.
 
 ## Screenshots
-screenshot/s1.png
-screenshot/s2.png
-screenshot/s3.png
+![Screenshot 1](screenshot/s1.png)
+![Screenshot 2](screenshot/s2.png)
+![Screenshot 3](screenshot/s3.png)
 
 
 ## Backend - MongoDB
